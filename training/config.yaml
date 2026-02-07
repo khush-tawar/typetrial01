@@ -1,0 +1,13 @@
+model_name_or_path: "runwayml/stable-diffusion-v1-5"
+train_data_dir: "dataset/train"
+metadata_file: "dataset/train/metadata.jsonl"
+output_dir: "outputs/lora-hindi"
+resolution: 512
+train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-4
+max_train_steps: 4000
+lora_rank: 16
+lora_alpha: 16
+seed: 42
+mixed_precision: "fp16"

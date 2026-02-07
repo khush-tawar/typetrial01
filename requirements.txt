@@ -1,0 +1,11 @@
+torch
+torchvision
+diffusers
+transformers
+accelerate
+pyyaml
+Pillow
+fonttools
+uharfbuzz
+scikit-image
+tqdm
